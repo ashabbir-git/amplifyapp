@@ -13,9 +13,7 @@
     },
     "categories": {
       "auth": {
-        "amplifyapp8f8cfd72": {
-          "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"339129717295697\",\"client_secret\":\"2112fe7ae0e083468e03be78bd027910\"}]"
-        }
+        "amplifyappa50d87a2": {}
       }
     }
   }

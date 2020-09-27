@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "amplifyapp8f8cfd72_identitypool_8f8cfd72",
+    "identityPoolName": "amplifyappa50d87a2_identitypool_a50d87a2",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplif8f8cfd72",
-    "userPoolName": "amplifyapp8f8cfd72_userpool_8f8cfd72",
+    "resourceNameTruncated": "amplifa50d87a2",
+    "userPoolName": "amplifyappa50d87a2_userpool_a50d87a2",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "amplif8f8cfd72_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "amplifa50d87a2_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "8f8cfd72",
-    "resourceName": "amplifyapp8f8cfd72",
+    "sharedId": "a50d87a2",
+    "resourceName": "amplifyappa50d87a2",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -45,15 +45,8 @@
             "Arn"
         ]
     },
-    "useDefault": "defaultSocial",
+    "useDefault": "default",
     "userPoolGroupList": [],
     "serviceName": "Cognito",
-    "dependsOn": [],
-    "hostedUI": true,
-    "hostedUIDomainName": "amplifyapp-shabbir",
-    "authProvidersUserPool": [
-        "Facebook"
-    ],
-    "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://www.amazon.com/\"],\"LogoutURLs\":[\"https://www.yahoo.com/\"]}"
+    "dependsOn": []
 }
